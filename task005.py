@@ -8,5 +8,5 @@ os.system('cls')
 print('Введите последовательно координаты точек "A" и "B" ---> \nзначения X и Y для каждой точки вводятся через нажатие клавишы Enter:')
 a, b, a1, b1 = (int(input()) for _ in range(4))
 
-lengthSegment = ((a1 - a) ** 2 + (b1 - b) ** 2) ** (0.5)
-print(f"Длина отрезка АB: {format(lengthSegment, '.2f')}")
+length_segment = ((a1 - a) ** 2 + (b1 - b) ** 2) ** (0.5)
+print(f"Длина отрезка АB: {format(length_segment, '.2f')}")
