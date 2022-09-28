@@ -18,5 +18,4 @@ if day_number < 6:
     f = 'рабочий день'
 else:
     f = 'выходной день'
-
 print(week_days[day_number-1], f, sep=' -> ')
